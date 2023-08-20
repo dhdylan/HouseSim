@@ -68,7 +68,7 @@ MonoBehaviour:
   beforeTAACustomPostProcesses: []
   lightLayerName0: Light Layer default
   lightLayerName1: Pictures
-  lightLayerName2: Light Layer 2
+  lightLayerName2: Realtime only
   lightLayerName3: Light Layer 3
   lightLayerName4: Light Layer 4
   lightLayerName5: Light Layer 5

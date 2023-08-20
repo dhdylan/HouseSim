@@ -55,8 +55,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Look(Vector2 look)
     {
-        this.transform.Rotate(new Vector3(0f, look.x, 0f));
+        this.transform.Rotate(new Vector3(0f, look.x * mouseSensitivity * Time.deltaTime, 0f));
         
-        cameraTrans.Rotate(new Vector3(-look.y, 0f, 0f));
+        cameraTrans.Rotate(new Vector3(-look.y * mouseSensitivity * Time.deltaTime, 0f, 0f));
     }
 }
